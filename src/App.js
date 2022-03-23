@@ -21,8 +21,8 @@ function App() {
       <div className="App">
       
       <img src={data.album.images[1].url} alt="yuhu" />
-      <h1> {data.album.artists[0].name}</h1>
       <h2>{data.album.name}</h2>
+      <h3> {data.album.artists[0].name}</h3>
     
       <button>Select</button>
     </div>
